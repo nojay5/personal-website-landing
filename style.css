@@ -1,0 +1,30 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 300; /* Thinner weight for a sharp look */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.intro, .project-card {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300; /* Light weight for clean look */
+}
+
+.project-card h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+}
