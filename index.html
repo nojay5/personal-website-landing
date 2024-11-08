@@ -7,30 +7,59 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap">
-
 </head>
 <body>
 
-    <h1>Noah Turner</h1>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <div class="intro">
-        <p>Hi, I'm Noah. .</p>
-        
-    </div>
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Noah Turner</h1>
+        <p>I enjoy problem solving</p>
+    </header>
 
-    <div class="projects">
-        <div class="project-card">
-            <h2>Poker Web App</h2>
-            <p>Track and analyze poker stats</p>
-            <a href="http://13.57.4.178:8001">Poker Project</a>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Poker Web App</h3>
+            <p>This custom-built poker tracking app, developed with Node.js and EJS, helps me analyze my weekly poker sessions. By logging session details like buy-ins, cash-outs, and hours played, I can generate personalized stats and insights. Unlike costly subscription-based apps, this solution is fully customized to fit my exact needs, giving me complete control over my data and analysis.</p>
+            <a href="http://13.57.4.178:8001">View Poker Web App</a>
         </div>
-        <div class="project-card">
-            <h2>Stock Trading Simulator</h2>
-            <p>Simulate stock trading strategies</p>
-            <a href="http://13.57.4.178:8002">Stock Sim Project</a>
+
+        <div class="project">
+            <h3>Stock Trading Simulator</h3>
+            <p>StockSensei is a comprehensive stock trading simulator that empowers users to explore financial markets without real-world financial risks. Developed using Node.js, Docker, and EJS, this platform enables users to simulate trades, track performance, and stay updated with real-time market news and articles. Log in with username: <strong>admin</strong> and password: <strong>123</strong> to explore the platform and experience realistic stock market data.</p>
+            <a href="http://13.57.4.178:8060">View Stock Trading Simulator</a>
         </div>
-        <!-- Add more project cards as needed -->
-    </div>
+
+        <div class="project">
+            <h3>Cart Pole DQN</h3>
+            <p>A reinforcement learning project using OpenAI Gym to control a cart-pole system through Deep Q-Learning.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Hi, I'm Noah, a Computer Science student at the University of Colorado Boulder, focusing on Data Science, Machine Learning, and Web Applications. Currently seeking internship opportunities to apply my skills in the tech industry.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let's connect! Reach out at <a href="mailto:nojayturner5@gmail.com">nojayturner5@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/noah-turner-725822313/">LinkedIn</a> and <a href="https://github.com/nojay5">GitHub</a>.</p>
+    </section>
 
 </body>
 </html>

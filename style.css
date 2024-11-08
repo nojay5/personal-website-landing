@@ -1,30 +1,137 @@
-/* General Styles */
+/* General Styling */
 body {
-    background-color: #ffffff;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #333;
+    background-color: #f9f9f9;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-h1 {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 3em;
-    font-weight: 300; /* Thinner weight for a sharp look */
-    margin-bottom: 10px;
     text-align: center;
 }
 
-.intro, .project-card {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: 300; /* Light weight for clean look */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
-.project-card h2 {
-    font-family: 'Poppins', Arial, sans-serif;
+a:hover {
+    color: #005bb5;
+}
+
+/* Centered Content */
+section {
+    max-width: 600px; /* Narrow width */
+    margin: 2em auto;
+    padding: 1.5em 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    gap: 1.5em;
+    font-weight: 300;
+}
+
+nav ul li a {
+    color: #666;
+    font-weight: 300;
+}
+
+/* Header Section */
+header {
+    padding-top: 15vh;
+    margin-bottom: 10vh;
+    color: #333;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #333;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+header p {
     font-size: 1.2em;
     font-weight: 300;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+/* Organic Section Styling */
+#projects h2,
+#about h2,
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+/* Project title styling with subtle underlines */
+#projects h3 {
+    font-size: 1.3em;
+    color: #444;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: #444;
+}
+
+#projects h3:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #0073e6;
+    margin: 0.5em auto 1em; /* Centered line under each title */
+    border-radius: 2px;
+}
+
+/* Text styling */
+#projects p, #about p, #contact p {
+    font-size: 1.1em;
+    margin: 0.5em 0 1em;
+    line-height: 1.6;
+}
+
+/* Link Styling */
+#projects a, #contact a {
+    font-weight: 500;
+    color: #0073e6;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+#projects a:hover, #contact a:hover {
+    color: #005bb5;
+}
+
+/* Divider Styling */
+.section-divider {
+    width: 100%;
+    max-width: 600px;
+    height: 1px;
+    background-color: #ddd;
+    margin: 3em auto; /* Space between sections */
+}
+
+/* Background effect for individual project sections */
+.project {
+    background: linear-gradient(135deg, rgba(255,255,255,0.8), rgba(245,245,245,0.9));
+    padding: 1.5em 1em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+}
+
+.project:hover {
+    background: linear-gradient(135deg, rgba(250,250,250,1), rgba(240,240,240,1));
 }
