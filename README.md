@@ -1,0 +1,1 @@
+personal website running on aws ec2 instance used to display projects and info
